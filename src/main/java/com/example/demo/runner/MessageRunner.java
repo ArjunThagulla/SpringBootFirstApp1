@@ -8,8 +8,8 @@ public class MessageRunner implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("WELCOME TO SPRINGBOOT APP");
-		System.out.println("Modified Code");
+		int a =10;
+		System.out.println("Modified Code"+a);
 	}
 
 }
